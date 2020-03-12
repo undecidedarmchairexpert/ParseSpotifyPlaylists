@@ -8,3 +8,6 @@ gen
 
 # Data Folder
 /data
+
+# Required Binaries
+./geckodriver.exe
