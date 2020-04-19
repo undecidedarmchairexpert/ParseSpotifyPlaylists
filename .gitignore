@@ -10,4 +10,4 @@ gen
 /data
 
 # Required Binaries
-./geckodriver.exe
+geckodriver.exe
