@@ -67,7 +67,7 @@ def get_playlist(listName, url):
 def program():
     if not os.path.isfile("./geckodriver.exe"):
         raise FileNotFoundError("This script requires Firefox & GeckoDriver to run. Please install Firefox and "
-                                "download GeckoDriver into the same file as the "
+                                "download GeckoDriver into the same folder as the "
                                 "script.\nhttps://github.com/mozilla/geckodriver/releases")
     # Open file consisting of url on one line and the name on following line
     # Split at new line in order to avoid readlines() leaving a trailing character
